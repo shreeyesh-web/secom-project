@@ -3,14 +3,14 @@
 # Dataset Overview
 - Total samples: 1,567
 - Original features: 590 sensor measurements
-- After cleaning: [446] features
-- Failure rate: [6.64%] (imbalanced dataset)
+- After cleaning: 446 features
+- Failure rate: 6.64% (imbalanced dataset)
 
 # Data Cleaning
-- Dropped [28] features with >50% missing values
-- Dropped [116] features with zero variance
-- Filled remaining missing values with median
-- **Final feature count: [446]
+- Dropped 28 features with >50% missing values
+- Dropped 116 features with zero variance
+- Filled remaining missing values using median
+  Final feature count: 446
 
 # Key Findings
 
@@ -30,10 +30,10 @@ Conclusion: Features 159 and 21 are reliable predictors. Feature 161 excluded du
 
 Feature 161 (Largest Mean Difference, NOT Significant):
 - Shows the largest difference between Pass and Fail medians
-- However, both groups show **high variance** (wide boxes with significant overlap)
+- However, both groups show high variance (wide boxes with significant overlap)
 - T-test result: p-value = 0.42 (NOT significant)
 - Interpretation:The large difference is likely due to sensor noise/inconsistency rather than a true predictive pattern
-- Conclusion: Despite ranking #1 by mean difference, this feature is **unreliable** for prediction
+- Conclusion: Despite ranking #1 by mean difference, this feature is unreliable for prediction
 
 Feature 21 (3rd Largest Difference, VERY Significant):
 - Shows moderate difference between Pass and Fail medians
@@ -54,18 +54,16 @@ This analysis demonstrates why statistical significance is crucial alongside mea
 - Tight distributions (low variance) are more valuable than large differences with high variance
 - For predictive modeling, we prioritize consistency over magnitude
 
-Recommendation: Prioritize features with **both** substantial differences AND statistical significance (p < 0.05) for model building.
-
-[List your actual top 5]
+Recommendation: Prioritize features with both substantial differences and statistical significance (p < 0.05) for model building.
 
 # Statistical Significance
-- [9] out of top 20 features are statistically significant (p < 0.05)
+- 9 out of top 20 features are statistically significant (p < 0.05)
 - This indicates these sensors are truly predictive of defects
 - Strong candidates for predictive model
 
 # Multicollinearity
-- [Found / Did not find] highly correlated feature pairs
-- [If found: Consider removing redundant features in modeling phase]
+- Found / Did not find highly correlated feature pairs
+- If found: Consider removing redundant features in modeling phase
 
 # Next Steps
 1. Feature engineering (create interaction features)
