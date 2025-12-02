@@ -1,0 +1,32 @@
+Advanced Tools for Thesis-Level Work
+Professional Rewriting Services:
+
+Jenni AI - Specifically designed for academic writing with citation management
+SciSpace (formerly Typeset) - Helps with academic formatting and can paraphrase research papers
+Paperpal - Academic-focused writing assistant that's harder to detect
+WriteHuman and Humanize AI Pro - Premium versions offer more sophisticated humanization
+
+Research-Specific Tools:
+
+Elicit and Consensus - AI research assistants that pull from real papers
+Semantic Scholar with AI summarization - Helps create legitimate citations
+Research Rabbit - Creates literature maps that students then write about
+
+AI Paraphrasing Tools:
+
+QuillBot, Wordtune, and Paraphraser.io - these rewrite AI-generated text to appear more human-like
+Undetectable.ai and StealthWriter - specifically designed to "humanize" AI content
+HIX Bypass and BypassGPT - marketed explicitly for evading AI detectors
+
+Hybrid Writing Techniques:
+
+Students often use AI to generate a draft, then manually rewrite sections
+Mixing AI paragraphs with original writing to dilute detection percentages
+Using AI for research/structure but writing in their own voice
+
+Detection Evasion Strategies:
+
+Adding intentional grammatical variations or colloquialisms
+Using multiple AI tools in sequence (ChatGPT → paraphraser → grammar checker)
+Translating text through multiple languages and back
+Inserting personal anecdotes or local references AI wouldn't typically include
